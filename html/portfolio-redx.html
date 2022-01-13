@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Jenny Yan | Red Cross | Portfolio</title>
+</head>
+
+<body class="preloader-visible">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="wrapper">
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="index.html">
+              <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png 1x, img/logo/logo-light-x2.png 2x" data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png 1x, img/logo/logo-dark-x2.png 2x" data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">
+                          Home
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="about.html">
+                          About
+                        </a>
+                      </li>
+
+                      <li class="menu-item-has-children">
+                        <a>Design</a>
+
+                        <ul class="subnav-list">
+                          <li>
+                            <a data-barba href="portfolio.html">Portfolio</a>
+                          </li>
+                          <li>
+                            <a data-barba href="https://adplist.org/mentors/jenny-yan" target="blank">Mentoring</a>
+                          </li>
+                          <li>
+                            <a data-barba href="https://medium.com/@jennyyandesign" target="blank">Writing</a>
+                          </li>
+                          <li>
+                            <a data-barba href="https://www.instagram.com/jennyyan.draws" target="blank">Art</a>
+                          </li>
+                        </ul>
+                      </li>
+                      
+                      <li>
+                        <a data-barba href="contact.html">
+                          Contact
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Location 
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          Sydney, Australia 
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="https://www.linkedin.com/in/jennyyandesign/" target="blank">LinkedIn</a>
+                        <a href="https://adplist.org/mentors/jenny-yan" target="blank">Adplist</a>
+                        <a href="https://www.instagram.com/ux.notions" target="blank">Instagram</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact 
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="mailto:jennyyandesign@gmail.com">Email</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- page header start -->
+      <section class="masthead -type-work-1 -full-screen bg-black sm:text-center js-masthead-type-work-1 js-bg">
+        <div data-parallax="0.7" class="masthead__bg overlay-black-md js-image">
+          <div data-parallax-target class="bg-image js-lazy js-bg-item" data-bg="img/projects/horizontal/banner_redx.png"></div>
+        </div>
+
+        <div class="masthead__content">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-xl-10 col-sm-10 z-3">
+                <div data-split="lines">
+                  <p class="masthead__subtitle text-lg sm:text-base text-white mb-32 sm:mb-24 js-subtitle">
+                    Mobile App
+                  </p>
+                </div>
+
+                <div data-split="lines">
+                  <h1 class="masthead__title text-white fw-700 js-title">
+                    Red Cross Donor App 
+                  </h1>
+                </div>
+
+                <div class="masthead__info__wrap">
+                  <div class="row y-gap-32">
+
+                    <div class="col-lg-auto  col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-lg leading-sm fw-600 text-white">Role</h5>
+                          <p class="text-lg leading-sm text-light mt-12 sm:mt-8">Design Lead</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-auto offset-lg-1 col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-lg leading-sm fw-600 text-white">Duration</h5>
+                          <p class="text-lg leading-sm text-light mt-12 sm:mt-8">9 months</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-auto offset-lg-1 col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-lg leading-sm fw-600 text-white">Tools</h5>
+                          <p class="text-lg leading-sm text-light mt-12 sm:mt-8">Sketch, Invision, Zeplin</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-auto offset-lg-1 col-sm-6">
+                      <div class="masthead__info">
+                        <div data-split="lines" class="masthead__item js-info-item">
+                          <h5 class="text-lg leading-sm fw-600 text-white">Client</h5>
+                          <a href="https://www.redcross.org.au/" class="button d-block fw-500 text-lg leading-sm text-white mt-12 sm:mt-8">
+                            Red Cross Australia 
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- page header end -->
+
+
+      <!-- CONTEXT start -->
+      <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+
+            <div class="col-auto">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">01.-</p>
+                <p class="text-dark uppercase fw-500">Context</p>
+              </div>
+            </div>
+
+
+            <div class="col-xl-7 col-lg-8">
+              <div class="md:mt-20">
+                <h2 class="text-3xl fw-600 text-black">
+                  Background 
+                </h2>
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                  The Australian Red Cross is a humanitarian aid and community services charity in Australia and an auxiliary to government.
+                </p>
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                  We were tasked to produce a production-ready native mobile app to help donors schedule appointments through their mobile devices.                 
+                </p>
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                I led the User Experience Design alongside a team of others which included UX Designers, the Product Owner, Tech Lead and multiple Engineers. Leading the experience design I was part of the process from the initial kick off meeting through to launch and iteration.
+              </p>
+              </div>
+            </div>
+
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- CONTEXT end -->
+
+       <!-- OBJECTIVES start -->
+       <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+
+            <div class="col-auto">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">02.-</p>
+                <p class="text-dark uppercase fw-500">Objectives</p>
+              </div>
+            </div>
+
+
+            <div class="col-xl-7 col-lg-8">
+              <div class="md:mt-20">
+                <h2 class="text-3xl fw-600 text-black">
+                  Business Opportunity 
+                </h2>
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                  Donor goals for the app 
+                </p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Simplify the booking process for donors</p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Provide ease of booking and tracking appointments</p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Improve the overall % engagement</p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Reactivate % of dormant donors</p>
+                </p>
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                  Operational goals for the app 
+                </p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Reduce operational costs by limiting unnecessary calls and potentially the production of donor cards</p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Reach eligible donors for urgent appeals by geography and blood type </p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Send appointment reminders for decreased no-shows</p>
+                <p class="text-black mt-14 sm:mt-14">&bull; Improve delivery and effectiveness of blood service  campaigns</p>
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- OBJECTIVES end -->
+
+       <!-- PROCESS start -->
+       <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+
+            <div class="col-auto">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">03.-</p>
+                <p class="text-dark uppercase fw-500">Process </p>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <div class="row x-gap-40 y-gap-40 layout-pt-md">
+          <div class="col-12">
+            <img src="img/backgrounds/portfolio_redxprocess.png" width="100%">
+          </div>
+        <!-- container end -->
+      </section>
+      <!-- PROCESS end -->
+
+       <!-- DISCOVER start -->
+       <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+
+            <div class="col-auto">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">04.-</p>
+                <p class="text-dark uppercase fw-500">Discover </p>
+              </div>
+            </div>
+
+            <div class="col-xl-7 col-lg-8">
+              <div class="md:mt-20">
+                <h2 class="text-3xl fw-600 text-black">
+                Design Workshops
+                </h2>
+
+               
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                  Design thinking workshops uncover stakeholder wisdom, look for patterns and gather insights to inform the creation of a unique donor experience.</p>
+                  <p class="text-lg text-black mt-24 sm:mt-16">
+                  <b>Setting the Stage-Divergence:</b> Design thinking practice aresas, 
+                  Service Map using behavioural change model, ethnography 101
+                  Divergence: Ethnographic Research: interviewing</p>
+                  <p class="text-lg text-black mt-24 sm:mt-16">
+                  <b>Insight Generation:</b> Personas. Empathy Mapping. Persona Journey Maps
+                  <p class="text-lg text-black mt-24 sm:mt-16">
+                  <b>Iteration:</b> Rough & ready prototype sprints, testing, prioritisation</p>
+                <p class="text-lg text-black mt-24 sm:mt-16">
+                  <b>Convergence:</b> Feature review & roadmap, & annotate and build requirements </p>
+                </p>
+
+              </div>
+            </div>
+          
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- PROCESS end -->
+
+        <!-- UNDERSTAND start -->
+      <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-8">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">05.-</p>
+                <p class="uppercase fw-500">Understand</p>
+              </div>
+            </div>
+          </div>
+
+              <div class="mt-20">
+                <h2 class="text-3xl fw-600">
+                  Stakeholder Map
+                </h2>
+
+                <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                  <div class="col-12">
+                    <img src="img/backgrounds/portfolio_redxstakeholdermap.jpeg" width="80%">
+                  </div>
+
+                  <div class="mt-20">
+                    <h2 class="text-3xl fw-600">
+                      Persona 
+                    </h2>
+                    
+                    <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                      <div class="col-12">
+                        <img src="img/backgrounds/portfolio_redxpersona.jpeg" width="100%">
+                      </div>
+                
+                 <div class="mt-20">
+                        <h2 class="text-3xl fw-600">
+                          Customer Journey Map
+                        </h2>
+                        
+                        <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                          <div class="col-12">
+                            <img src="img/backgrounds/portfolio_redxcxmap.jpeg" width="100%">
+                          </div>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- UNDERSTAND end -->
+
+       <!-- IDEATE start -->
+       <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-8">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">06.-</p>
+                <p class="uppercase fw-500">Ideate</p>
+              </div>
+            </div>
+          </div>
+
+              <div class="mt-20">
+                <h2 class="text-3xl fw-600">
+                  Concept Sketches 
+                </h2>
+
+                <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                  <div class="col-12">
+                    <img src="img/backgrounds/portfolio_redxc1.png" width="100%">
+                  </div>
+
+                <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                  <div class="col-12">
+                    <img src="img/backgrounds/portfolio_redxc2.png" width="100%">
+                  </div>
+
+              <div class="mt-20">
+                <h2 class="text-3xl fw-600">
+                   Donor App User Flow Architecture 
+                </h2>
+
+                <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                  <div class="col-12">
+                    <img src="img/backgrounds/portfolio_redxia.png" width="100%">
+                  </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- IDEATE end -->
+
+      <!-- DESIGN & TEST start -->
+      <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-8">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">07.-</p>
+                <p class="uppercase fw-500">Design & Test</p>
+              </div>
+            </div>
+          </div>
+
+              <div class="mt-20">
+                <h2 class="text-3xl fw-600">
+                  Wireframing, Prototyping & Testing 
+                </h2>
+
+                <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                  <div class="col-12">
+                    <img src="img/backgrounds/portfolio_redxcxw1.jpeg" width="100%">
+                  </div>
+
+                  <div class="col-xl-7 col-lg-8">
+                    <div class="md:mt-20">
+                  <p class="text-3xl text-black mt-24 sm:mt-16">
+                    User testing insights</p>
+
+                
+                    <p class="text-lg text-black mt-24 sm:mt-16">&bull; Increased clarity required on the purpose of the newsfeed/notifications functionality</p>
+                    <p class="text-lg text-black mt-24 sm:mt-16">&bull; Remove the requirement to sign in, post the donor has downloaded the app and logged in or registered for the first time. We will allow the donor to access the app without the need to login for up to 90 days </p>
+                    <p class="text-lg text-black mt-24 sm:mt-16">&bull; There is confusion around the interaction of the droplet icon on the dashboard</p>
+                    <p class="text-lg text-black mt-24 sm:mt-16">&bull; Background images distract the user from completing bookings, it does not offer a lot of value and takes up valuable screen real estate.
+                    </p>
+                  </div>
+                  </div>
+
+                  <div class="row x-gap-40 y-gap-40 layout-pt-md">
+                    <div class="col-12">
+                      <img src="img/backgrounds/portfolio_redxcxw2.jpeg" width="100%">
+                    </div>
+  
+                    <div class="col-xl-7 col-lg-8">
+                      <div class="md:mt-20">
+                    <p class="text-3xl text-black mt-24 sm:mt-16">
+                      User testing</p>
+  
+                      <p class="text-lg text-black mt-24 sm:mt-16">&bull; In the current flow the appointment process starts with either donation type selection or with DC selection. It then allows the donor to select date and time before answering the eligibility screen. This is annoying, if the donors is ineligible at this stage</p>
+                      <p class="text-lg text-black mt-24 sm:mt-16">&bull; Need to communicate that rescheduling will cancel the existing appointment and that the donor will need to re-book appointment </p>
+                      </p>
+                    </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- DESIGN & TEST end -->
+
+      <!-- FINAL DESIGN start -->
+      <section class="layout-pt-sm layout-pb-sm bg-white-1">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-8">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">08.-</p>
+                <p class="uppercase fw-500">Build & Delivery</p>
+              </div>
+            </div>
+          </div>
+
+              <div class="mt-20">
+                <h2 class="text-3xl fw-600">
+                  Final Design
+                </h2>
+          
+          <div class="row align-items-center">
+              <video width="100%" autoplay="" muted="" loop="">
+                <source src="img/backgrounds/red_x_video.mp4" type="video/mp4">
+              </video>
+            </div>
+
+  
+             
+          </div>
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container end -->
+  </section>
+  <!-- FINAL DESIGN end --> 
+
+  <!-- PROJECT OUTCOMES start -->
+   <section class="layout-pt-sm layout-pb-sm bg-white-1">
+     <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row justify-content-between">
+            <div class="col-xl-7 col-lg-8">
+              <div class="d-flex text-xs tracking-md pt-4">
+                <p class="text-accent fw-600 mr-16">09.-</p>
+                <p class="uppercase fw-500">Outcomes </p>
+              </div>
+            </div>
+          </div>
+
+            <div class="mt-20">
+              <h2 class="text-3xl fw-600">
+                Project Outcomes 
+              </h2>
+              <p class="text-lg text-black mt-24 sm:mt-16"> March 2017 
+              <p class="text-lg text-black mt-24 sm:mt-16">&bull; Downloads have increased from 33,000 (30%) of donors after 4 months to 45,000 (41%) of donors after 9 months</p>
+              <p class="text-lg text-black mt-24 sm:mt-16">&bull; Red Cross Australia have 1,200 users/day </p>
+              <p class="text-lg text-black mt-24 sm:mt-16">&bull; Since launch they’ve gone from 3.5% to 15.7% of total appointment (peaked at 36% after a campaign), translates to a net reduction of 12% of all calls into call centre which has been a huge saving </p>
+              <p class="text-lg text-black mt-24 sm:mt-16">&bull; Mapping has been a major part of the apps success – visually seeing locations, where donors are in relation to centres/mobile donations </p>
+              <p class="text-lg text-black mt-24 sm:mt-16">&bull; Search – 3 ways available with list, search and map meets needs of all donor </p>
+              <p class="text-lg text-black mt-24 sm:mt-16">&bull; Push notifications – core reason to keep the app, particularly when blood is used to save a life </p>
+              <p class="text-lg text-black mt-24 sm:mt-16">Download from <a href="https://apps.apple.com/au/app/donate-blood/id1438603103?ign-mpt=uo%3D4" target="blank">Apple App Store</a>
+              </p>
+              <p class="text-lg text-black mt-24 sm:mt-16">Download from <a href="https://play.google.com/store/apps/details?id=au.com.donateblood.donorapp.prod&hl=en" target="blank">Google Play Store</a>
+              </p>
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container end -->
+  </section>
+  <!-- PROJECT OUTCOMES end -->
+
+
+
+   <!-- section start -->
+   <section class="projects-nav">
+    <!-- row start -->
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a data-barba href="portfolio-unisuper.html" class="projects-nav__item -prev bg-dark-1">
+            <div class="projects-nav__img">
+              <div class="bg-image js-lazy" data-bg="img/projects/horizontal/footer_unisuper.jpg"></div>
+            </div>
+
+            <div class="projects-nav__content">
+              <div class="projects-nav__icon">
+                <i class="size-xl str-width-xs text-white" data-feather="arrow-left-circle"></i>
+              </div>
+
+              <h3 class="text-4xl fw-400 tracking-none text-white">
+                Product Comparator
+              </h3>
+
+              <p class="projects-nav__text -prev text-sm fw-500 text-white tracking-md uppercase">
+                PREV
+              </p>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="col-lg-6">
+          <a data-barba href="portfolio-bnz.html" class="projects-nav__item -next bg-dark-1">
+            <div class="projects-nav__img">
+              <div class="bg-image js-lazy" data-bg="img/projects/horizontal/footer_bnz.jpg"></div>
+            </div>
+
+            <div class="projects-nav__content">
+              <h3 class="text-4xl fw-400 tracking-none text-white">
+                Biometrics Sign Up
+              </h3>
+
+              <div class="projects-nav__icon">
+                <i class="size-xl str-width-xs text-white" data-feather="arrow-right-circle"></i>
+              </div>
+
+              <p class="projects-nav__text -next text-sm fw-500 text-white tracking-md uppercase">
+                NEXT
+              </p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+      <!-- row end -->
+    </section>
+    <!-- section end -->
+
+
+      <!-- FOOTER START -->
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-3 col-sm-12">
+                <a href="index.html" class="footer__logo text-white">
+                  Jenny Yan
+                </a>
+              </div>
+
+              <div class="col-lg-auto col-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Explore
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="index.html" class="button -underline">Home</a></div>
+                  <div><a data-barba href="about.html" class="button -underline mt-4">About</a></div>
+                  <div><a data-barba href="design.html" class="button -underline mt-4">Design</a></div>
+                  <div><a data-barba href="contact.html" class="button -underline mt-4">Contact</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Design
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="portfolio.html" class="button -underline">Portfolio</a></div>
+                  <div><a data-barba href="https://www.adplist.com/mentors/jenny-yan" class="button -underline mt-4" target="blank">Mentoring</a></div>
+                  <div><a data-barba href="https://medium.com/@jennyyandesign" class="button -underline mt-4" target="blank">Writing</a></div>
+                  <div><a data-barba href="https://instagram.com/jennyyan.draws" class="button -underline mt-4" target="blank">Art</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Socials 
+                </h4>
+
+                <div class="ui-element -left js-ui md:d-none" style="opacity: 1; transform: translate(0%, -50%);">
+                  <div class="ui-element__social -column text-white js-bottom-left-links">
+                    <a href="https://www.linkedin.com/in/jennyyandesign" target="blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://instragram.com/ux.notions" target="blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://medium.com/@jennyyandesign" target="blank"><i class="fa fa-medium"></i></a>
+                  </div>
+                </div>
+                
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom -light">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-3 col-sm-12">
+                <div class="footer__copyright">
+                  <p class="text-light">
+                    © 2022 Jenny Yan Design
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- FOOTER END -->
+  </div>
+  <!-- barba container end -->
+
+</main>
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
